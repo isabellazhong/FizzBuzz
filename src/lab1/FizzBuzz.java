@@ -3,7 +3,7 @@ package lab1;
 /**
  * Solve the lab1.FizzBuzz challenge.
  */
-class FizzBuzz {
+public class FizzBuzz {
 
     public static void main(String[] args) {
 
@@ -13,7 +13,7 @@ class FizzBuzz {
         }
     }
 
-    private static void fizzbuzz(int i) {
+    public static void fizzbuzz(int i) {
         // Find out which numbers divide i.
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
