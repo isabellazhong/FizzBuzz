@@ -303,7 +303,7 @@ through readings and coding exercises over the next few weeks.
 
 ### Task 3.3 Push your latest changes
 
-- [ ] Now that you've made some more changes to your repository, you should repeat the add, commit, and push process
+- [x] Now that you've made some more changes to your repository, you should repeat the add, commit, and push process
 for any files that you have changed if you haven't done so recently. Remember to include a descriptive commit message!
 
 ### Task 3.4 Pulling changes from GitHub
@@ -322,13 +322,13 @@ ways to help you resolve conflicts without too much difficulty.
 To get your first experience with `git pull`, you can make a quick change to one of the files in your Fizz Buzz repository
 on GitHub.
 
-- [ ] Open any of the files (like this readme file, for example) on the GitHub webpage for your repository. Near the
+- [X] Open any of the files (like this readme file, for example) on the GitHub webpage for your repository. Near the
 right side of the screen, you should see an edit button (with a pencil on it). Click that and make a small edit to
 the file. Then click the commit button to commit the change to the repository.
 
 This change has now been made on GitHub, but your local copy doesn't know about the change yet.
 
-- [ ] In IntelliJ, you can either click the `Git` menu and choose `Pull...`,
+- [X] In IntelliJ, you can either click the `Git` menu and choose `Pull...`,
 or you can run `git pull` from the Terminal tab. Once you have done the pull, you should see the commit show up in
 your local repository.
 
@@ -375,19 +375,19 @@ System.out.println(count);
 > In order to later test the `multiples` method, we will need to change the access modifier on your
 > extracted method. To do this, you can remove the `private` keyword.
 
-- [ ] Right-click the first line and choose `Refactor->Inline Variable` to
+- [X] Right-click the first line and choose `Refactor->Inline Variable` to
   further simplify the method body to just one line of code.
 
 > Something to think about: is code _more_ or _less_ readable when we inline variables in this way?
 
-- [ ] Modify the `multiples` method so that it takes **three** parameters:
+- [X] Modify the `multiples` method so that it takes **three** parameters:
     - an integer `n`,
     - an integer `a`,
     - an integer `b`.
 
 These will all be positive integers.
 
-- [ ] Generalize the code so that it uses:
+- [X] Generalize the code so that it uses:
     - `n` in place of where 1000 was previously used
     - `a` where 3 was used
     - `b` where 5 was used.
@@ -397,7 +397,7 @@ These will all be positive integers.
 To test your code, you can run the provided `MultiplesTest` in the `test` folder.
 The first time you run the tests, you may need to first hover your mouse over one of the
 red squiggly lines near the top of `MultiplesTest.java` and click `more options...`
-and then `Add Junit 5.8.1 to classpath`. Then you should be able to run the tests.
+and then . Then you should be able to run the tests.
 
 > If you accidentally add `Junit 4`, then `jupiter` should turn red and hovering over that should
 > prompt you to add `Junit 5.8.1`.
@@ -405,7 +405,7 @@ and then `Add Junit 5.8.1 to classpath`. Then you should be able to run the test
 After you have run the tests once, you may see a play button appear beside `MultiplesTest`
 in this file. You can then click that to conveniently rerun the tests.
 
-- [ ] Make sure the tests all pass in the file.
+- [X] Make sure the tests all pass in the file.
 
 - [ ] If you didn't yet, also `add`, `commit`, and `push` this `Multiples.java` file to save your work
   and upload it to your GitHub repo.
